@@ -1,0 +1,43 @@
+TASK 2: BASIC TEXT EDIOT
+Intern ID- CC66711
+Designation- Web Development Intern
+Batch- October 2023
+======================================================================================================
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Text Editor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #editor-container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #editor {
+            width: 100%;
+            min-height: 300px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        #editor:focus {
+            outline: none;
+            border: 1px solid #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div id="editor-container">
+        <h1>Basic Text Editor</h1>
+        <textarea id="editor" placeholder="Start typing..."></textarea>
+    </div>
+</body>
+</html>
